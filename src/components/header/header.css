@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+.contenedorHeader{
+    background-image: url(../../assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 100;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 41% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 41% 75%, 0 100%);
+}
+
+.tittle{
+    margin-top:0;
+    padding-right:950px;
+    position: relative;
+    
+}
+.nav{
+    padding-left: 900px;
+    margin-top:-70px;
+    position: relative;
+    
+}
+
+.welcome{
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 200px;
+}
+.arrow{
+    color:greenyellow;
+    margin-left: 140px;
+}
+
+.welcome h1{
+    font-size: 50px;
+    text-align: center;
+}
